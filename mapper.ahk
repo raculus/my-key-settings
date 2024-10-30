@@ -1,3 +1,5 @@
+#SingleInstance
+
 ; Alt + J -> Left Arrow
 !j::Send("{Left}")
 ; Shift + Alt + J -> Shift + Left Arrow
@@ -45,6 +47,3 @@
 ![::Send("{Backspace}")
 ; Shift + Alt + [ -> Shift + Backspace
 +![::Send("+{Backspace}")
-
-; Esc 키를 누르면 스크립트를 종료
-Esc::ExitApp
